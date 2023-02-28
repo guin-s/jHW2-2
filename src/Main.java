@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         int currentBalance = 100;
-        int adjunction = 50;
+        int adjunction = 1100;
         int bonus;
 
-        if (adjunction > 100) {
+        if (adjunction > 1000) {
             bonus = adjunction / 100;
         } else {
             bonus = 0;
